@@ -9,7 +9,7 @@ public class Banque {
         lesComptes = new ArrayList<CompteBanque>();
     }
 
-    public void addCompte() {
-        lesComptes.add(new CompteCourant());
+    public void addCompte(CompteBanque compte) {
+        lesComptes.add(compte);
     }
 }
